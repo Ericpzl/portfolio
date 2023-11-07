@@ -1,0 +1,58 @@
+:root{
+    --blanco:#fff;
+    --oscuro:#212121;
+    --primario: #ffc107;
+    --secundario:#0097a7;
+    --gris:#757575;
+
+}
+html{
+    font-size: 62.5%;
+
+}
+body{
+    font-size: 16px;
+    font-family: 'Krub', sans-serif;
+}
+.titulo{
+    text-align: center;
+    font-size: 2.8rem;
+
+}
+.titulo span {
+    font-size: 1.2rem;
+}
+
+h2 span {
+    color: var(--primario);
+    font-size: 2.8rem;
+}
+.nav-bg{
+    background-color: var(--secundario);
+}
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+.navegacion-principal{
+    display:flex;
+    justify-content:space-around;
+    text-align: center;
+
+   
+
+ 
+}
+.navegacion-principal a{ 
+    font-weight: bold;
+    color:var(--blanco);
+    text-decoration: none;
+    padding: 1rem;
+   
+
+}
+
+.navegacion-principal a:hover{
+    background-color: var(--primario);
+    color: var(--oscuro)
+}
